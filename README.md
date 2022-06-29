@@ -15,6 +15,6 @@
 - [x] Crear design system sobre Emotion
      - Crear variables globales de CSS
      - Importar las fonts del proyecto Roboto (regular & bold)
-- [] Crear sistema de routing con react-router-dom
+- [x] Crear sistema de routing con react-router-dom
 - [] Crear componente ruta protegida
 - [] Autenticacion con la API
