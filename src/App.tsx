@@ -1,14 +1,26 @@
 import styled from '@emotion/styled';
-import './App.css';
+import { Layout } from './ui/Layout';
 
 const RedTitle = styled.h1`
-color: red`;
+color: var(--error);
+`;
 
 function App() {
 
      return (
-          <RedTitle className='App'>MiniCodeLab</RedTitle>
-     )
+          <div className="App">
+               <Layout >
+                    <h1>MiniCodeLab</h1>
+                    <h2>MiniCodeLab</h2>
+                    <h3>MiniCodeLab</h3>
+                    <h4>MiniCodeLab</h4>
+                    <p>MiniCodeLab</p>
+                    <span>MiniCodeLab</span>
+                    <button>MiniCodeLab</button>
+               </Layout>
+          </div>
+     );
 }
 
-export default App
+export default App;
+
